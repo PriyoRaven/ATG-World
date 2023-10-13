@@ -9,6 +9,7 @@
 
     <!--TITLE-->
     <title>ATG.WORLD</title>
+    <link rel="icon" type="image/x-icon" href="assets/Union 1.png">
 
     <!--CSS-->
     <link rel="stylesheet" href="style.css" />
@@ -32,11 +33,28 @@
                 <div class="account">
                     <p class="cacc">
                         Create account.
-                        <a href="#" class="txtfree">It's free!
+                        <a href="#" class="txtfree" id="signupButton">It's free!
                             <i id="ddown" class="fa-sharp fa-solid fa-caret-down"></i>
                         </a>
                     </p>
                 </div>
+
+                <!--Signup/SignIn Button-->
+                <div class="overlay" id="signupOverlay">
+                    <div class="overlay-content">
+                        <span class="close" id="closeOverlay">&times;</span>
+                        <!-- Your signup form goes here -->
+                        <h2>Sign Up</h2>
+                        <form>
+                            <!-- Your form fields go here -->
+                            <input type="text" placeholder="Username">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Password">
+                            <button type="submit">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+
             </div>
         </nav>
     </header>
@@ -403,6 +421,7 @@
     <script src="js/dropdown.js"></script>
     <script src="js/buttonpress.js"></script>
     <script src="js/followpress.js"></script>
+    <script src="js/SignUp.js"></script>
 </body>
 
 </html>
