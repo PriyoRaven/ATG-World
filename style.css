@@ -344,11 +344,15 @@ nav {
 .your-location {
     display: flex;
     padding-bottom: 10px;
+    width: 250px;
     border-bottom: 2px solid #e6e6e6;
 }
 
-.img-pen {
-    margin-left: 100px;
+#locc {
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 10px;
 }
 
 .note {
@@ -357,4 +361,46 @@ nav {
     color: #bfbfbf;
     width: 220px;
     font-size: 12px;
+}
+
+/*Recommended part*/
+.rec-head {
+    margin-top: 70px;
+    letter-spacing: 1px;
+}
+.sidedp {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.imgto {
+    display: flex;
+    align-items: center;
+}
+.gtopic {
+    padding-left: 10px;
+}
+/*Follow button*/
+.follow {
+    cursor: pointer;
+    background-color: #edeef0;
+    border: none;
+    font-family: var(--font1);
+    font-size: 12px;
+    height: 30px;
+    padding: 0 15px;
+    border-radius: 50px;
+}
+.followed {
+    background-color: #333;
+    color: #fff;
+}
+
+/*see more part*/
+.sidown {
+    color: #2f6ce5;
+    font-family: var(--font1);
+    font-size: 12px;
+    float: right;
+    margin-top: 50px;
 }

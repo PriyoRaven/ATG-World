@@ -67,11 +67,46 @@
         </div>
             <div class="side-bar">
                 <div class="your-location">
-                    <p><i class="fa-solid fa-location-dot"></i> Noida, India</p>
+                    <i id="locc" class="fa-solid fa-location-dot"></i><input type="text" id="search-input" placeholder="Enter your Location" />
                     <p class="img-pen"><i class="fa-solid fa-pen"></i></p>
                 </div>
                 <div class="others">
                     <p class="note"><i class="fa-solid fa-circle-exclamation"></i> Your location will help us serve better and extend a personalised experience.</p>
+                </div>
+                <div class="rec-grp">
+                    <!--GROUPS-->
+                    <p class="rec-head"><i class="fa-regular fa-thumbs-up"></i> RECOMMENDED GROUPS</p>
+                    <div class="sidedp content1">
+                        <div class="imgto">
+                            <img src="assets/sidedp1.png" alt="reload">
+                            <p class="gtopic">Leisure</p>
+                        </div>
+                        <button class="follow" onclick="toggleFollow(this)">Follow</button>
+                    </div>
+                    <div class="sidedp content2">
+                        <div class="imgto">
+                            <img src="assets/sidedp2.png" alt="reload">
+                            <p class="gtopic">Activism</p>
+                        </div>
+                        <button class="follow" onclick="toggleFollow(this)">Follow</button>
+                    </div>
+                    <div class="sidedp content3">
+                        <div class="imgto">
+                            <img src="assets/sidedp3.png" alt="reload">
+                            <p class="gtopic">MBA</p>
+                        </div>
+                        <button class="follow" onclick="toggleFollow(this)">Follow</button>
+                    </div>
+                    <div class="sidedp content4">
+                        <div class="imgto">
+                            <img src="assets/sidedp4.png" alt="reload">
+                            <p class="gtopic">Philosophy</p>
+                        </div>
+                        <button class="follow" onclick="toggleFollow(this)">Follow</button>
+                    </div>
+                </div>
+                <div class="see-more">
+                    <a class="sidown" href="#">See More...</a>
                 </div>
             </div>
 
@@ -367,7 +402,7 @@
     <script src="js/category.js"></script>
     <script src="js/dropdown.js"></script>
     <script src="js/buttonpress.js"></script>
-
+    <script src="js/followpress.js"></script>
 </body>
 
 </html>
