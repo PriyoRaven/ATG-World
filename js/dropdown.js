@@ -14,7 +14,7 @@ function toggleDropdown(boxNumber) {
 }
 
 // Add event listeners for each box
-for (let i = 1; i <= 4; i++) { // Assuming you have two boxes, you can adjust this number as needed
+for (let i = 1; i <= 5; i++) { // Assuming you have two boxes, you can adjust this number as needed
     toggleDropdown(i);
 }
 

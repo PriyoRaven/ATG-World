@@ -55,13 +55,14 @@
         <div class="max-width">
             <div class="category-list">
                 <div class="category" onclick="toggleCategory('all')">All Posts(32)</div>
-                <div class="category" onclick="toggleCategory('articles')">Articles</div>
+                <div class="category" onclick="toggleCategory('articles')">Article</div>
+                <div class="category" onclick="toggleCategory('event')">Event</div>
                 <div class="category" onclick="toggleCategory('education')">Education</div>
                 <div class="category" onclick="toggleCategory('job')">Job</div>
             </div>
             <div class="inner-button">
-                <button>Write a Post</button>
-                <button>Join Group</button>
+                <button class="samebtn wrpo">Write a Post <i id="ddown" class="fa-sharp fa-solid fa-caret-down"></i> </button>
+                <button class="samebtn jogr"><i class="fa-sharp fa-solid fa-user-plus"></i> Join Group</button>
             </div>
         </div>
 
@@ -132,7 +133,7 @@
             </div>
           </div>
 
-          <!--Thrid Box-->
+          <!--Third Box-->
           <div class="Mainbox">
             <img class="aimg" src="assets/image3.png" alt="reconnect">
             <h2 class="its htype">🗓️ Meetup</h2>
@@ -174,12 +175,12 @@
             <div class="regular-topic">
                 <p class="its sheading">Software Developer</p>
                 <div class="dropdown">
-                    <div class="dropdown-button" id="dropdown-button3">
+                    <div class="dropdown-button" id="dropdown-button4">
                     <div class="dot"></div>
                     <div class="dot"></div>
                     <div class="dot"></div>
                     </div>
-                    <div class="dropdown-content" id="dropdown-content3">
+                    <div class="dropdown-content" id="dropdown-content4">
                     <a href="#">Edit</a>
                     <a href="#">Report</a>
                     <a href="#">Option 3</a>
@@ -206,16 +207,147 @@
 
         </div>
 
+        <!--Articles only-->
         <div class="category-content" id="articles">
-          <p>Articles content goes here.</p>
+            <div class="Mainbox">
+                <img class="aimg" src="assets/image1.png" alt="reconnect">
+                <h2 class="its htype">✍️ Article</h2>
+                <div class="regular-topic">
+                    <p class="its sheading">What if famous brands had regular fonts? Meet RegulaBrands!</p>
+                    <div class="dropdown">
+                        <div class="dropdown-button" id="dropdown-button5">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        </div>
+                        <div class="dropdown-content" id="dropdown-content5">
+                        <a href="#">Edit</a>
+                        <a href="#">Report</a>
+                        <a href="#">Option 3</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="its extra">I've worked in UX for the better part of a decade. From now on, I plan to rei...</p>
+                <div class="box-footer">
+                    <div class="bel profile">
+                        <img class="dp" src="assets/dp1.png" alt="reload">
+                        <p class="uname">Sarthak Kamra</p>
+                    </div>
+                    <div class="bel end">
+                        <p class="views"><i id="eyeui" class="fa-regular fa-eye"></i>1.4k views</p>
+                        <div class="sharebtn"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
+                    </div>
+                </div>
+              </div>
         </div>
 
+        <!--Event-->
+        <div class="category-content" id="event">
+            <div class="Mainbox">
+                <img class="aimg" src="assets/image3.png" alt="reconnect">
+                <h2 class="its htype">🗓️ Meetup</h2>
+                <div class="regular-topic">
+                    <p class="its sheading">Finance & Investment Elite Social Mixer @Lujiazui</p>
+                    <div class="dropdown">
+                        <div class="dropdown-button" id="dropdown-button3">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        </div>
+                        <div class="dropdown-content" id="dropdown-content3">
+                        <a href="#">Edit</a>
+                        <a href="#">Report</a>
+                        <a href="#">Option 3</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dandl">
+                    <p><i class="fa-regular fa-calendar"></i> Fri, 12 Oct, 2018</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Ahmedabad, India</p>
+                </div>
+                <button class="vweb onebox">Visit Website</button>
+                <div class="box-footer">
+                    <div class="bel profile">
+                        <img class="dp" src="assets/dp3.png" alt="reload">
+                        <p class="uname">Ronal Jones</p>
+                    </div>
+                    <div class="bel end">
+                        <p class="views"><i id="eyeui" class="fa-regular fa-eye"></i>1.4k views</p>
+                        <div class="sharebtn"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
+                    </div>
+                </div>
+              </div>
+        </div>
+
+        <!--Education-->
         <div class="category-content" id="education">
-          <p>Education content goes here.</p>
+            <div class="Mainbox">
+                <img class="aimg" src="assets/image2.png" alt="reconnect">
+                <h2 class="its htype">🔬 Education</h2>
+                <div class="regular-topic">
+                    <p class="its sheading">Tax Benefits for Investment under National Pension Scheme Launched by Government</p>
+                    <div class="dropdown">
+                        <div class="dropdown-button" id="dropdown-button2">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        </div>
+                        <div class="dropdown-content" id="dropdown-content2">
+                        <a href="#">Edit</a>
+                        <a href="#">Report</a>
+                        <a href="#">Option 3</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="its extra">I've worked in UX for the better part of a decade. From now on, I plan to rei...</p>
+                <div class="box-footer">
+                    <div class="bel profile">
+                        <img class="dp" src="assets/dp2.png" alt="reload">
+                        <p class="uname">Sarah West</p>
+                    </div>
+                    <div class="bel end">
+                        <p class="views"><i id="eyeui" class="fa-regular fa-eye"></i>1.4k views</p>
+                        <div class="sharebtn"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
+                    </div>
+                </div>
+              </div>
         </div>
 
+        <!--Job-->
         <div class="category-content" id="job">
-          <p>Job content goes here.</p>
+            <div class="Mainbox last">
+                <h2 class="its htype">💼 Job</h2>
+                <div class="regular-topic">
+                    <p class="its sheading">Software Developer</p>
+                    <div class="dropdown">
+                        <div class="dropdown-button" id="dropdown-button4">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        </div>
+                        <div class="dropdown-content" id="dropdown-content4">
+                        <a href="#">Edit</a>
+                        <a href="#">Report</a>
+                        <a href="#">Option 3</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="dandl">
+                    <p><i class="fa-solid fa-suitcase"></i> Innovaccer Analytics Private Ltd.</p>
+                    <p><i class="fa-solid fa-location-dot"></i> Noida, India</p>
+                </div>
+                <button class="vweb twobox">Apply on Timesjobs</button>
+                <div class="box-footer">
+                    <div class="bel profile">
+                        <img class="dp" src="assets/dp4.png" alt="reload">
+                        <p class="uname">Ronal Jones</p>
+                    </div>
+                    <div class="bel end">
+                        <p class="views"><i id="eyeui" class="fa-regular fa-eye"></i>1.4k views</p>
+                        <div class="sharebtn"><i class="fa-sharp fa-solid fa-share-nodes"></i></div>
+                    </div>
+                </div>
+              </div>
         </div>
 
     </section>
