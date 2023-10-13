@@ -1,10 +1,10 @@
-// Function to toggle dropdown visibility for a specific box
+
 function toggleDropdown(boxNumber) {
     const dropdownButton = document.querySelector(`#dropdown-button${boxNumber}`);
     const dropdownContent = document.querySelector(`#dropdown-content${boxNumber}`);
 
     dropdownButton.addEventListener("click", function(event) {
-        event.stopPropagation(); // Prevent click event from propagating to the document
+        event.stopPropagation();
         if (dropdownContent.style.display === "block") {
             dropdownContent.style.display = "none";
         } else {
@@ -13,12 +13,12 @@ function toggleDropdown(boxNumber) {
     });
 }
 
-// Add event listeners for each box
-for (let i = 1; i <= 5; i++) { // Assuming you have two boxes, you can adjust this number as needed
+
+for (let i = 1; i <= 8; i++) {
     toggleDropdown(i);
 }
 
-// Close the dropdown if the user clicks outside of any box
+
 document.addEventListener("click", function(event) {
     const dropdownContents = document.querySelectorAll("[id^='dropdown-content']");
     dropdownContents.forEach(function (dropdownContent) {

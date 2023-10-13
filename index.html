@@ -52,7 +52,7 @@
 
     <!--The Category maybe-->
     <section class="category-container">
-        <div class="max-width">
+        <div class="max-width linew">
             <div class="category-list">
                 <div class="category" onclick="toggleCategory('all')">All Posts(32)</div>
                 <div class="category" onclick="toggleCategory('articles')">Article</div>
@@ -62,9 +62,18 @@
             </div>
             <div class="inner-button">
                 <button class="samebtn wrpo">Write a Post <i id="ddown" class="fa-sharp fa-solid fa-caret-down"></i> </button>
-                <button class="samebtn jogr"><i class="fa-sharp fa-solid fa-user-plus"></i> Join Group</button>
+                <button class="samebtn jogr" id="groupButton" onclick="toggleGroupStatus()"><i class="fa-sharp fa-solid fa-user-plus"></i> Join Group</button>
             </div>
         </div>
+            <div class="side-bar">
+                <div class="your-location">
+                    <p><i class="fa-solid fa-location-dot"></i> Noida, India</p>
+                    <p class="img-pen"><i class="fa-solid fa-pen"></i></p>
+                </div>
+                <div class="others">
+                    <p class="note"><i class="fa-solid fa-circle-exclamation"></i> Your location will help us serve better and extend a personalised experience.</p>
+                </div>
+            </div>
 
         <!--The contents for the categories-->
         <div class="category-content" id="all">
@@ -249,12 +258,12 @@
                 <div class="regular-topic">
                     <p class="its sheading">Finance & Investment Elite Social Mixer @Lujiazui</p>
                     <div class="dropdown">
-                        <div class="dropdown-button" id="dropdown-button3">
+                        <div class="dropdown-button" id="dropdown-button6">
                         <div class="dot"></div>
                         <div class="dot"></div>
                         <div class="dot"></div>
                         </div>
-                        <div class="dropdown-content" id="dropdown-content3">
+                        <div class="dropdown-content" id="dropdown-content6">
                         <a href="#">Edit</a>
                         <a href="#">Report</a>
                         <a href="#">Option 3</a>
@@ -287,12 +296,12 @@
                 <div class="regular-topic">
                     <p class="its sheading">Tax Benefits for Investment under National Pension Scheme Launched by Government</p>
                     <div class="dropdown">
-                        <div class="dropdown-button" id="dropdown-button2">
+                        <div class="dropdown-button" id="dropdown-button7">
                         <div class="dot"></div>
                         <div class="dot"></div>
                         <div class="dot"></div>
                         </div>
-                        <div class="dropdown-content" id="dropdown-content2">
+                        <div class="dropdown-content" id="dropdown-content7">
                         <a href="#">Edit</a>
                         <a href="#">Report</a>
                         <a href="#">Option 3</a>
@@ -320,12 +329,12 @@
                 <div class="regular-topic">
                     <p class="its sheading">Software Developer</p>
                     <div class="dropdown">
-                        <div class="dropdown-button" id="dropdown-button4">
+                        <div class="dropdown-button" id="dropdown-button8">
                         <div class="dot"></div>
                         <div class="dot"></div>
                         <div class="dot"></div>
                         </div>
-                        <div class="dropdown-content" id="dropdown-content4">
+                        <div class="dropdown-content" id="dropdown-content8">
                         <a href="#">Edit</a>
                         <a href="#">Report</a>
                         <a href="#">Option 3</a>
@@ -357,6 +366,7 @@
     <!-- CATEGORY -->
     <script src="js/category.js"></script>
     <script src="js/dropdown.js"></script>
+    <script src="js/buttonpress.js"></script>
 
 </body>
 

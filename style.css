@@ -127,12 +127,17 @@ nav {
     margin-top: 20px;
     font-family: var(--font1);
     padding: 0 15%;
-  }
+}
+
+.linew {
+    border-bottom: 2px solid #efefef;
+}
   
 .Mainbox {
     border: solid 2px #e8e8e8;
     border-radius: 4px;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     width: 640px;
 }
 
@@ -161,10 +166,12 @@ nav {
   
 .category:hover {
     color: black;
+    font-weight: 600;
 }
   
 .category.active {
     color: black;
+    font-weight: 600;
 }
 
 .htype {
@@ -306,15 +313,48 @@ nav {
     padding: 10px 15px;
     font-weight: 600;
     border: none;
+    margin-bottom: 10px;
     border-radius: 5px;
     margin-left: 10px;
     cursor: pointer;
  }
 
- .wrpo {
+.wrpo {
     background-color: #edeef0;
- }
- .jogr {
+}
+.jogr {
     background-color: #2f6ce5;
     color: white;
- }
+}
+#groupButton.leave {
+    background-color: #ffffff;
+    color: #6a6a6b;
+    border: 2px solid #6a6a6b;
+    padding: 8px 10px;
+}
+
+/*Side Bar*/
+.side-bar {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 56%;
+    align-items: center;
+}
+
+.your-location {
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.img-pen {
+    margin-left: 100px;
+}
+
+.note {
+    margin-top: 40px;
+    margin-right: 5px;
+    color: #bfbfbf;
+    width: 220px;
+    font-size: 12px;
+}
