@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--METAS-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--TITLE-->
+    <title>ATG.WORLD</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/f540fd6d80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--NAVBAR-->
+    <header>
+        <nav class="navbar">
+            <div class="max-width">
+                <a href="mimage" href="#">
+                    <img class="logo" src="/assets/logo.png" alt="ATG.WORLD" />
+                </a>
+                <div class="search-container">
+                    <i class="search-icon fas fa-search"></i>
+                    <input type="text" id="search-input" placeholder="Search for your favourite groups in ATG" />
+                </div>
+                <div class="account">
+                    <p class="cacc">
+                        Create account.
+                        <a href="#" class="txtfree">It's free!
+                            <i id="ddown" class="fa-sharp fa-solid fa-caret-down"></i></a>
+                    </p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--BODY TOP PART-->
+    <section class="image-container">
+        <img class="bgimg" src="./assets/BGimg.png" alt="reload please" />
+        <div class="text-over-image">
+            <h2 class="CEng">Computer Engineering</h2>
+            <p class="countCE">142,765 Computer Engineers follow this</p>
+        </div>
+    </section>
+
+    <!--The Category maybe-->
+    <section class="category-container">
+        <div class="category-list">
+          <div class="category" onclick="toggleCategory('all')">All Posts</div>
+          <div class="category" onclick="toggleCategory('articles')">Articles</div>
+          <div class="category" onclick="toggleCategory('education')">Education</div>
+          <div class="category" onclick="toggleCategory('job')">Job</div>
+        </div>
+
+        <!--Contents-->
+        <div class="category-content" id="all">
+          <p>All Posts content goes here.</p>
+        </div>
+
+        <div class="category-content" id="articles">
+          <p>Articles content goes here.</p>
+        </div>
+
+        <div class="category-content" id="education">
+          <p>Education content goes here.</p>
+        </div>
+
+        <div class="category-content" id="job">
+          <p>Job content goes here.</p>
+        </div>
+
+    </section>
+
+    <!--ALL JAVASCRIPT FILES LINKS-->
+    <!-- CATEGORY -->
+    <script src="js/catgory.js"></script>
+
+</body>
+
+</html>
