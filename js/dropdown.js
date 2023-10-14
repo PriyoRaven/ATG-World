@@ -1,4 +1,3 @@
-
 function toggleDropdown(boxNumber) {
     const dropdownButton = document.querySelector(`#dropdown-button${boxNumber}`);
     const dropdownContent = document.querySelector(`#dropdown-content${boxNumber}`);

@@ -12,3 +12,13 @@ function toggleGroupStatus() {
 
     isJoining = !isJoining;
 }
+
+function toggleJoin(button) {
+    if (button.classList.contains("joined")) {
+        button.classList.remove("joined");
+        button.textContent = "Join Group";
+    } else {
+        button.classList.add("joined");
+        button.textContent = "Leave Group";
+    }
+}
