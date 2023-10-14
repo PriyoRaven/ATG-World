@@ -424,6 +424,8 @@ nav {
     transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 5px;
+    width: 50%;
+    height: 60%;
 }
 
 .close {
@@ -457,4 +459,102 @@ nav {
 .insign {
     font-size: 24px;
     padding: 20px 31px;
+}
+.mainform {
+    display: flex;
+    font-family: var(--font1);
+}
+
+.left-part {
+    display: grid;
+    grid-template-rows: auto;
+    padding-left: 31px;
+    width: 50%;
+}
+.twotop {
+    color: #8a8a8a;
+    background-color: #f7f8fa;
+    border: 1px solid #cfcfd0;
+    font-weight: 550;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.email {
+    border-radius: 3px 3px 0 0;
+}
+.pass {
+    border-radius: 0 0 3px 3px;
+    margin-bottom: 20px;
+    border-right: none;
+}
+.submit {
+    background-color: #2f6ce5;
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    cursor: pointer;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.eyepass {
+    border: none;
+    background-color: none;
+    color: #8a8a8a;
+    height: 50px;
+    background-color: #f7f8fa;
+    border: 1px solid #cfcfd0;
+    border-left: none;
+    border-radius: 0 0 3px 0;
+    padding: 10px 10px;
+}
+.passwordiv {
+    display: flex;
+    height: 70px;
+}
+.logsm {
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 90px;
+    font-weight: 500;
+    border: 1px solid #cfcfd0;
+    background-color: white;
+    border-radius: 3px;
+    display: flex;
+    cursor: pointer;
+}
+.fpass {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+/*Sign In right Side*/
+.right-part {
+    margin-left: 40px;
+}
+.dontc {
+    display: block;
+    position: absolute;
+    margin: -50px 20px;
+    font-family: var(--font1);
+    font-size: 12px;
+}
+.create {
+    color: #2f6ce5;
+    font-weight: 700;
+}
+.signimg {
+    width: 100%;
+    height: auto;
+    padding: 20px;
 }
